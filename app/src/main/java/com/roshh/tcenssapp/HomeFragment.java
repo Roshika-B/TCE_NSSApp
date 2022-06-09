@@ -103,15 +103,15 @@ public class HomeFragment extends Fragment {
 //                getActivity().finish();
             }
         });
-        abtus=(CardView)homefrag.findViewById(R.id.cardAbt);
-        abtus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i=new Intent(context,AboutusFragment.class);
-                startActivity(i);
-//                getActivity().finish();
-            }
-        });
+//        abtus=(CardView)homefrag.findViewById(R.id.cardAbt);
+//        abtus.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent i=new Intent(context,AboutusFragment.class);
+//                startActivity(i);
+////                getActivity().finish();
+//            }
+//        });
         activity=(CardView)homefrag.findViewById(R.id.cardActiv);
         activity.setOnClickListener(new View.OnClickListener() {
             @Override
