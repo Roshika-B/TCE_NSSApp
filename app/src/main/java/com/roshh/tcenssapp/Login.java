@@ -34,7 +34,7 @@ public class Login extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(Login.this,Signup.class);
                 startActivity(i);
-                finish();
+//                finish();
             }
         });
         vEmail=(EditText)findViewById(R.id.editTextTextPersonName);

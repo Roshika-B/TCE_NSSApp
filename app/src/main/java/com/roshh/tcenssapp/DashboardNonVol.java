@@ -21,7 +21,7 @@ public class DashboardNonVol extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intnt=new Intent(DashboardNonVol.this,Gallery.class);
                 startActivity(intnt);
-                finish();
+//                finish();
             }
         });
         bbtn=(Button)findViewById(R.id.bosbtn);
@@ -30,7 +30,7 @@ public class DashboardNonVol extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i=new Intent(DashboardNonVol.this,Bos.class);
                 startActivity(i);
-                finish();
+//                finish();
             }
         });
 

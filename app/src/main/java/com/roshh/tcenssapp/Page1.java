@@ -20,7 +20,7 @@ public class Page1 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(Page1.this, Login.class);
                 startActivity(intent);
-                finish();
+//                finish();
             }
         });
         nonvolbt=(Button)findViewById(R.id.nonvolbut);
@@ -29,7 +29,7 @@ public class Page1 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i=new Intent(Page1.this,DashboardNonVol.class);
                 startActivity(i);
-                finish();
+//                finish();
             }
         });
     }
