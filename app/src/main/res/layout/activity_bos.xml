@@ -1,0 +1,349 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:paddingLeft="5dp"
+    android:background="@color/logoblue"
+    android:paddingRight="5dp">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HISTORY OF BOS"
+        android:textColor="@color/cherry"
+        android:fontFamily="@font/chau_philomene_one"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize = "30dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp">
+
+    </TextView>
+
+    <TableRow
+        android:background="@color/cherry"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:fontFamily="@font/chau_philomene_one"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:text="YEAR" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:fontFamily="@font/chau_philomene_one"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:text="NAME" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:fontFamily="@font/chau_philomene_one"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:text="DEPT" />
+
+    </TableRow>
+    <TableRow
+        android:background="@color/logoblue"
+        android:padding="10dp">
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:text="2017" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="Rahul Kannan" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="Civil" />
+    </TableRow>
+    <TableRow
+        android:background="@color/logoblue" android:padding="10dp">
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="2018" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:fontFamily="@font/atma_medium"
+            android:text="Keerthiga" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="CSE" />
+    </TableRow>
+    <TableRow android:background="@color/logoblue" android:padding="10dp">
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="2019" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="Bharath Sakthi" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="ECE" />
+    </TableRow>
+
+    <TableRow android:background="@color/logoblue" android:padding="10dp">
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="2020" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="Vimal" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="IT" />
+    </TableRow>
+
+    <TableRow android:background="@color/logoblue" android:padding="10dp">
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="2021" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="SriHari" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="EEE" />
+    </TableRow>
+
+    <TableRow android:background="@color/logoblue" android:padding="10dp">
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="2021" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="Sujitha" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="IT" />
+    </TableRow>
+
+    <TableRow android:background="@color/logoblue" android:padding="10dp">
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="2022" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="Karan Sakthi" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="Civil" />
+    </TableRow>
+
+    <TableRow android:background="@color/logoblue" android:padding="10dp">
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="2022" />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="Dhanusri " />
+        <TextView
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:fontFamily="@font/atma_medium"
+            android:textSize="18dp"
+            android:text="EEE" />
+    </TableRow>
+
+</TableLayout>
+
