@@ -12,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TCENSSApp">
+        <activity android:name=".QRGen"></activity>
         <activity android:name=".Bdc" />
         <activity android:name=".BottomNav" />
         <activity android:name=".Activities" />

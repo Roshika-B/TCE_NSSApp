@@ -42,7 +42,7 @@ public class HomeFragment extends Fragment {
      */
     // TODO: Rename and change types and number of parameters
     View homefrag;
-    CardView bdcc, attendance, bos, gallery, abtus, activity;
+    CardView bdcc, attendance, bos, gallery, gen, activity;
     public static HomeFragment newInstance(String param1, String param2) {
         HomeFragment fragment = new HomeFragment();
         Bundle args = new Bundle();
@@ -103,15 +103,15 @@ public class HomeFragment extends Fragment {
 //                getActivity().finish();
             }
         });
-//        abtus=(CardView)homefrag.findViewById(R.id.cardAbt);
-//        abtus.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent i=new Intent(context,AboutusFragment.class);
-//                startActivity(i);
-////                getActivity().finish();
-//            }
-//        });
+        gen=(CardView)homefrag.findViewById(R.id.cardGen);
+        gen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(context,QRGen.class);
+                startActivity(i);
+//                getActivity().finish();
+            }
+        });
         activity=(CardView)homefrag.findViewById(R.id.cardActiv);
         activity.setOnClickListener(new View.OnClickListener() {
             @Override
