@@ -31,6 +31,7 @@ public class QRGen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_qrgen);
+        getSupportActionBar().hide();
 
         // initializing all variables.
         qrCodeIV = findViewById(R.id.idIVQrcode);
